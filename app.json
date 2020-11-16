@@ -1,0 +1,8 @@
+{
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heroku/go"
+        }
+    ]
+}
