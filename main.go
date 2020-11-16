@@ -80,7 +80,7 @@ func fallback(w http.ResponseWriter, r *http.Request) {
 	const index = "index.html"
 	files := []string{index}
 	if r.URL.Path != "/" {
-		files = []string{r.URL.Path, path.Join(r.URL.Path, index)}
+		files = []string{r.URL.Path, r.URL.Path + ".html", path.Join(r.URL.Path, index)}
 	}
 	if !tryFiles(files, w, r) {
 		if !tryFiles([]string{index}, w, r) {
