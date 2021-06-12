@@ -1,4 +1,4 @@
-// +heroku goVersion go1.11
+// +heroku goVersion go1.16
 module ustream-heroku
 
 go 1.16
