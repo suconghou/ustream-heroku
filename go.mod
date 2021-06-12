@@ -1,6 +1,7 @@
+// +heroku goVersion go1.11
 module ustream-heroku
 
-go 1.15
+go 1.16
 
 require (
 	github.com/suconghou/videoproxy v0.0.0-20210607104820-b5d6a707aa66
