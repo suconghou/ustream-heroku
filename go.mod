@@ -8,5 +8,5 @@ require (
 	github.com/suconghou/youtubevideoparser v0.0.0-20210612095328-c7a6dfe2f417 // indirect
 	github.com/tidwall/gjson v1.8.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	golang.org/x/net v0.0.0-20210614182718-04defd469f4e // indirect
+	golang.org/x/net v0.0.0-20210716203947-853a461950ff // indirect
 )
